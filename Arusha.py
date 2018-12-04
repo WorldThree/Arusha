@@ -161,6 +161,7 @@ async def shutdown(ctx):
     if ctx.message.author.id == ownerID : 
         await client.send_message(ctx.message.channel,"See you later!")
         print ("closing")
+        client.close()
         exit()
     else :
         await client.send_message(ctx.message.channel,"You dont have permission to use this command")
