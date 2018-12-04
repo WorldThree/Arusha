@@ -5,7 +5,7 @@ import statistics
 import datetime
 from discord.ext import commands
 #Connections is a file that stores personal details that will not be shared.  
-from Connections import * 
+from db_connect import * 
 
 #client = discord.Client()
 description = "A bot to help you out with GBF betting!"

@@ -1,0 +1,231 @@
+#wrapper{
+		width:75%;
+		margin-left:auto;
+		margin-right:auto;
+		background-color:#2c3539;
+		box-shadow:4px 4px 4px #0d0d0d;
+		
+		
+}
+
+body{
+	background:linear-gradient(#44b7ff,#ccf0fc,#eaf7ff);
+	background-color:#eaf7ff;
+	background-repeat:no-repeat;
+	display:block;
+	
+	
+}
+h1{
+	background-image:url(Granblue-Fantasy.jpg);
+	background-position:center;
+	height:150px;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	text-align:center;
+	color:#FFFFFF;
+	background-color:#000000;
+	margin-bottom:0;
+	padding:20px;
+	display:block;
+	
+}
+
+nav{
+	font-family:"arial black";
+	background-color:#2c3539;
+	padding: 5px;
+	padding-top:0px;
+	float:left;
+	width:240px;
+	font-size:2em;
+	overflow:auto;
+	
+	
+}
+nav ul{
+		list-style:none;
+		margin-left:0px;
+}
+nav li{
+		padding:5px;
+		padding-left:0px;
+		margin-left:-40px;
+		border-bottom:double;
+		text-align:center;
+}
+nav a{
+	text-decoration:none;
+}
+nav a:link{ color:#7b5f73;}
+nav a:visited{ color:#d3cac6;}
+nav a:hover{ color:#a7958d}
+
+main{
+	padding:5px;
+	margin-left:250px;
+	display:block;
+	background-color:#d7dee0;
+	font-size:1.2em;
+	display:block;
+
+	
+	
+}
+main dt{
+		font-size:2.8em;
+		font-weight:bold;
+		text-align:center;
+}
+main dd{
+		text-align:center;
+		width:45%;
+		margin-left:auto;
+		margin-right:auto;
+		font-size:1.2em;
+}
+
+main ul{
+		text-align:center;
+		list-style:none;
+}
+main ul li{
+		text-align:left;
+		padding-left:10px;
+}
+main h3{
+		 text-align:center;
+		 margin-bottom:0px;
+		 width:75%;
+		 margin-right:auto;
+		 margin-left:auto;
+		 border-radius:100px;
+		 background-color:#B6c3c6;
+		
+		 display:block;
+}
+main  a{text-decoration:none;}
+
+footer{
+		font-style:italic;
+		text-align:center;
+		font-size:.8em;
+		color:#000000;
+		background-color:#d7dee0;
+		padding:20px;
+		margin-left:250px;
+		display:block;
+}
+
+ul.event{
+		padding:10px;
+		display:block;
+		float:left;
+		overflow:auto;
+		list-style-type:none;
+
+		
+}
+ul li {list-style-type:none;}
+
+img.event2{
+		width: 70%;
+		
+		padding:5px;
+}
+.center{
+		text-align:center;
+		width:70%;
+		margin-left:auto;
+		margin-right:auto;
+}
+p.center{
+		text-align:center;
+		width:70%;
+		margin-left:auto;
+		margin-right:auto;
+		font-size:1.2em;
+}
+.bold{
+	font-weight:bold;
+	font-size:1.1em;
+}
+a.link{
+	text-decoration:none;
+	font-size:1.2em;
+	
+}
+
+div.build{
+		width:90%;
+		padding:20px;
+		margin-left:auto;
+		margin-right:auto;
+		text-align:center;
+		display:block;
+}
+div.gallery{ 
+	margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 35%;
+	height:25%;
+	display:block;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+	float:right;
+    padding: 15px;
+    text-align: center;
+}
+@media only screen and (max-width: 64em) {
+	body  { margin: 0;
+	       background-color: #FFFFFF;
+	}
+	#wrapper { min-width: 0;
+	           width: auto;
+			   box-shadow: none;
+	}
+	#homeban, #faqban,#buildsban { 
+				margin-left: 0;
+	            height: 200px; 
+	}
+	main { margin-left: 0; }
+	nav { float: none;
+	     width: auto;
+		 padding: .5em;
+		 text-align: center;
+	}
+	nav li { display: inline;
+	      padding: 0.25em 0.75em;
+	
+	}
+	footer { margin-left: 0; }
+}
+@media only screen and (max-width: 37.5em) {
+   main { padding: 0.1em 1em;
+		 font-size: 90%;
+	}
+	header { padding-top: 1em; 
+	}
+	h1 { font-size: 1.5em;
+    }
+	nav { padding: 0; }
+	nav li { display: block;
+	       margin: 0;
+		   border-bottom: 2px solid #330000; 
+	}
+	nav a { display: block; }
+	#homeban, #faqban,#buildsban{ background-image: none; height: 0; }
+	#mobile { display: inline; }
+	#desktop { display: none; }
+	label { float: none;
+	      text-align: left;
+	}
+  }
